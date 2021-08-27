@@ -28,7 +28,7 @@ class TestGetCompletion(unittest.TestCase):
         
     def testTypeCompletion(self):
         expected = ["serviceentry"]
-        results = generate_completions((), "servicee", None)
+        results = generate_completions((), "serviceen", None)
         self.assertEqual(expected, results)
 
         
